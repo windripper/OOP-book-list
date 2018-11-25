@@ -58,8 +58,8 @@ document.getElementById("book-form").addEventListener("submit", function (evt) {
     evt.preventDefault();
 
     const title = document.getElementById("title").value,
-        author = document.getElementById("author").value,
-        isbn = document.getElementById("isbn").value;
+          author = document.getElementById("author").value,
+          isbn = document.getElementById("isbn").value;
 
     const book = new Book(title, author, isbn);
 
